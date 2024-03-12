@@ -1,23 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rian Lima Delou</title>
     <style>
-        footer { /* apenas um detalhe */
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600&display=swap');
+
+        :root {
+            --fonte: 'DM Sans', sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: var(--fonte);
+            font-size: larger;
+        }
+
+        .rotina {
+            text-align: center;
+        }
+
+        footer {
             position: absolute;
             bottom: 0;
         }
     </style>
 </head>
+
 <body>
-    <p>Eu acordo, <strong>tenho aulas pela manhã</strong>, estudo à tarde, participação em atividades extracurriculares, <strong>prática de exercícios no início da noite</strong>, jantar, revisão de estudos, tempo livre à noite para relaxar, <strong>preparo para dormir por volta das 22:30</strong>. Flexibilidade nos finais de semana para sociais, descanso e hobbies. Consistência com adaptações quando necessário.</p>
-    
-    <img src="https://christianosantos.com/files/cs1/avatar-homem.jpg" alt="Avatar de um homem">
+    <h1>Rian Lima Delou</h1>
 
-    <video src="https://www.w3schools.com/tags/movie.mp4" controls></video>
+    <h2>Rotina</h2>
 
+    <p class="rotina">Eu acordo, <strong>tenho aulas pela manhã</strong>, estudo à tarde, participação em atividades
+        extracurriculares, <strong>prática de exercícios no início da noite</strong>, jantar, revisão de estudos, tempo
+        livre à noite para relaxar, <strong>preparo para dormir por volta das 22:30</strong>. Flexibilidade nos finais
+        de semana para sociais, descanso e hobbies. Consistência com adaptações quando necessário.</p>
+    <div>
+        <img src="https://christianosantos.com/files/cs1/avatar-homem.jpg" alt="Avatar de um homem">
+
+        <video src="https://www.w3schools.com/tags/movie.mp4" controls></video>
+    </div>
     <audio src="./musica01.mp3" autoplay loop></audio>
 
     <p><em>“Exemplo de uma citação” ~Criador da citação</em></p>
@@ -33,4 +61,5 @@
         audio.volume = 0.4; 
     </script>
 </body>
+
 </html>
