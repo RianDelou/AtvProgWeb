@@ -1,0 +1,11 @@
+body {
+    background-image: url(./background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo {
+    background-color: red;
+    border: 2px solid green;
+    text-align: center;
+}
